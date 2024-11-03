@@ -7,7 +7,7 @@
 
 /* Customizando a cor dos links do menu */
 .nav-link {
-  color: var(--dark-blue) !important;
+  color: var(--text-color)!important;
   font: var(--font-regular);
   padding-inline: 1rem;
   transition: text-shadow 0.3s ease;
@@ -21,7 +21,7 @@
 
 /* Personalizando ícones sociais */
 .d-flex a {
-  color: var(--dark-blue);
+  color: var(--text-color);
 }
 
 .fa-brands {
