@@ -1,5 +1,5 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/portifolio-web/',
+  base: './', // Isso ajusta os caminhos para serem relativos ao arquivo index.html
 });
