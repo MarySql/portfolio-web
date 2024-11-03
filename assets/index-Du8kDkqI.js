@@ -28,7 +28,7 @@
       <h1>Fullstack Developer</h1>
       <p>based in Brazil.</p>
       <a class="button-container" href="#">
-       <img class="button" src="/repo-name/assets/button.svg" alt="resume">
+       <img class="button" src="/potifolio-web/assets/button.svg" alt="resume">
 
         <img class="button-hover" src="assets/button-hover.svg" alt="resume">
       </a>
