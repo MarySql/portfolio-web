@@ -1,0 +1,20 @@
+:root {
+  --light-yellow: #FBF8CC;
+  --dark-blue: #03045E;
+  --dark-brown: #474306;
+  --yellow: #F5EE84;
+  --to-light-yellow: #F7F197;
+
+  --font-regular: 400 1rem/150% "Poppins", sans-serif;
+  --semi-bold: 700 1.5rem /150% "Poppins", sans-serif;
+  
+}
+
+html {
+  font-family: var(--font-regular);
+}
+
+body {
+  background-color: var(--light-yellow);
+}
+

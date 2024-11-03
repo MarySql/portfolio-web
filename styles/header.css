@@ -1,0 +1,26 @@
+.navbar-brand {
+  font: var(--semi-bold);
+  
+}
+
+/* Customizando a cor dos links do menu */
+.nav-link {
+  color: var(--dark-blue) !important;
+  font: var(--font-regular);
+  
+  
+}
+
+.nav-link:hover {
+  color: var(--yellow) !important; /* Cor de hover */
+}
+
+/* Personalizando ícones sociais */
+.d-flex a {
+  color: var(--dark-blue);
+
+}
+
+.d-flex a:hover {
+  color: var(--yellow);
+}
