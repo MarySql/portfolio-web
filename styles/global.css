@@ -11,8 +11,7 @@
   --semi-bold: 700 1.5rem /150% "Poppins", sans-serif;
   --font-xl: 800 4rem/100%  "Poppins", sans-serif;
 
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+ 
 }
 
 html {
