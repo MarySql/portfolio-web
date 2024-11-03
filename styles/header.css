@@ -1,26 +1,35 @@
-.navbar-brand {
+.logo {
   font: var(--semi-bold);
-  
+  cursor: default;
+  text-decoration: none;
+
 }
 
 /* Customizando a cor dos links do menu */
 .nav-link {
   color: var(--dark-blue) !important;
   font: var(--font-regular);
-  
-  
+  padding-inline: 1rem;
+  transition: text-shadow 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .nav-link:hover {
-  color: var(--yellow) !important; /* Cor de hover */
+  color: var(--yellow) !important;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.802);
 }
 
 /* Personalizando ícones sociais */
 .d-flex a {
   color: var(--dark-blue);
-
 }
 
-.d-flex a:hover {
-  color: var(--yellow);
+.fa-brands {
+  transition: text-shadow 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.fa-brands:hover {
+  color: var(--yellow) !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.802);
 }
