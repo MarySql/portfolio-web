@@ -57,6 +57,9 @@ h1 {
   h1 {
     font-size: 3rem;
   }
+  body {
+    overflow-x: hidden;
+  }
   
 }
 
