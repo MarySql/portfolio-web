@@ -1,0 +1,23 @@
+h2 {
+  font:  var(--font-l);
+  color: var( --yellow);
+}
+
+#discribe {
+  font: var(--font-sm);
+  color: var(--text-color);
+  text-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.512);
+  
+}
+
+.container {
+  max-width: 800px; /* Ou a largura desejada */
+  margin: 0 auto; /* Centraliza o container */
+}
+
+
+
+#skillsChart {
+  width: 100% !important; /* Faz o canvas ocupar 100% da largura do container */
+  max-height: 300px;
+}

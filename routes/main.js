@@ -40,7 +40,7 @@ export function renderMain() {
 
   // Criando a estrutura de layout
   main.innerHTML = `
-    <div class="container text-center mt-5">
+    <div class="container text-center mt-5 pb-3">
       <div class="text-start row justify-content-center align-items-center flex-column flex-sm-row">
       </div>
     </div>
