@@ -1,0 +1,16 @@
+
+
+.text-muted {
+  font: var(--font-regular);
+  color: var(--text-color) !important;
+  
+}
+
+.hover-grow {
+  box-shadow: 0px 4px 10px 5px rgba(144, 154, 146, 0.441);
+  transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.1); /* Aumente ou diminua o valor para ajustar o crescimento */
+}

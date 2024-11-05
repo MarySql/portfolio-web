@@ -55,7 +55,7 @@ export function renderMain() {
   window.addEventListener('load', () => {
     document.querySelector('.button').setAttribute('src', 'assets/images/button.svg');
     document.querySelector('.button-hover').setAttribute('src', 'assets/images/button-hover.svg');
-    document.querySelector('.profile').setAttribute('src', 'assets/images/profile.png');
+    document.querySelector('.profile').setAttribute('src', 'assets/images/profile.svg');
 
     document.getElementById('textColumn').classList.add('slide-in-left');
     document.getElementById('avatarColumn').classList.add('slide-in-right');
