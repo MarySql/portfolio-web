@@ -1,0 +1,30 @@
+#contact li {
+  font: var(--font-regular);
+  color: var(--text-title);
+}
+
+#contact strong {
+  font: var(--font-md);
+  color: var(--text-color);
+  padding-right: 5px;
+}
+
+#contact a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-title);
+  transition: transform 0.2s ease;
+}
+
+#contact a:hover {
+  transform: scale(1.1);
+ 
+  color: #30091e;
+}
+
+#contact .small {
+  font-size: 0.85em;
+  color: #777; /* Cor mais clara para o texto */
+  margin-top: 20px;
+}
+

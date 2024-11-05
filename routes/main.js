@@ -24,7 +24,7 @@ export function renderMain() {
     <p>Hello, I’m Maryane</p>
     <h1>Fullstack Developer</h1>
     <p>based in Brazil.</p>
-    <a class="button-container" href="#">
+    <a class="button-container" href="#contact">
       <img class="button" alt="resume">
       <img class="button-hover" alt="resume">
     </a>
