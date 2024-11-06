@@ -31,23 +31,24 @@
       <img class="profile img-fluid" alt="profile">
     </div>
   `,s=new d("textColumn","col-12 col-sm-6 d-flex flex-column order-1 order-sm-1 mb-4 mb-sm-0",a),e=new d("avatarColumn","col-12 col-sm-6 d-flex justify-content-center align-items-center avatar order-2 order-sm-2",i);t.innerHTML=`
-    <div class="container text-center mt-5 pb-3">
+    <div class="container text-center mt-5 pb-3 cemvh">
       <div class="text-start row justify-content-center align-items-center flex-column flex-sm-row">
       </div>
     </div>
-  `;const n=t.querySelector(".row");n.appendChild(s.createColumn()),n.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","assets/images/profile.svg"),document.getElementById("textColumn").classList.add("slide-in-left"),document.getElementById("avatarColumn").classList.add("slide-in-right")}),document.querySelector("#app").appendChild(t)}function p(){const t=document.createElement("section");t.id="about";const a=`
-    <h2 class="pb-3">About me.</h2>
-    <p id="discribe">Hi! I'm Maryane Soares, a Computer Science student and a technology enthusiast. I'm interested in web development, especially in JavaScript and frameworks like Svelte. I like to explore new ideas and create projects that positively impact people's lives. I'm also a cat lover and always try to learn something new every day.</p>
+  `;const n=t.querySelector(".row");n.appendChild(s.createColumn()),n.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","assets/images/profile.svg"),document.getElementById("textColumn").classList.add("slide-in-left"),document.getElementById("avatarColumn").classList.add("slide-in-right")}),document.querySelector("#app").appendChild(t)}function p(){const t=document.createElement("section");t.id="about";const a='<h2 class="pb-5">About me.</h2>',i='<h3 class="scroll-text">A long time ago in a galaxy far, far away... </h3>',s=`
+    <p class="scroll-text">Hi! I'm Maryane Soares, a Computer Science student and a technology enthusiast. I'm interested in web development, especially in JavaScript and frameworks like Svelte. I like to explore new ideas and create projects that positively impact people's lives. I'm also a cat lover and always try to learn something new every day.</p>
   `;t.innerHTML=`
   <div class="container text-center mt-5">
-    <div class="text-start row justify-content-center align-items-center">
-      <div class="col-12">
-        ${a}
+     <div class="text-start row    justify-content-center align-items-center">
+       ${a}
+      <div class="col-12 bg-star mb-5">
+        ${i}
+        ${s}
       </div>
     </div>
     <canvas id="skillsChart"></canvas> 
   </div>
- `,document.querySelector("#app").appendChild(t),g()}function g(){const t=document.getElementById("skillsChart").getContext("2d");t.canvas.width=t.canvas.clientWidth,t.canvas.height=300,new Chart(t,{type:"bar",data:{labels:["React","Bootstrap","JavaScript","HTML/CSS","Sql"],datasets:[{label:"Skill levels",data:[40,60,70,90,45],backgroundColor:["rgba(75, 192, 192, 0.2)","rgba(153, 102, 255, 0.2)","rgba(255, 159, 64, 0.2)","rgba(54, 162, 235, 0.2)"],borderColor:["rgba(75, 192, 192, 1)","rgba(153, 102, 255, 1)","rgba(255, 159, 64, 1)","rgba(54, 162, 235, 1)"],borderWidth:1}]},options:{responsive:!0,maintainAspectRatio:!1,scales:{y:{beginAtZero:!0,max:100}}}})}function v(){const t=document.createElement("article");t.id="work";const a=`
+ `,document.querySelector("#app").appendChild(t),g(),document.addEventListener("scroll",function(){document.querySelectorAll(".scroll-text").forEach(function(n){const r=n.getBoundingClientRect().top,o=window.innerHeight/1.5;r<o&&(n.style.animation="subtleScrollEffect 2s forwards ease-out")})})}function g(){const t=document.getElementById("skillsChart").getContext("2d");t.canvas.width=t.canvas.clientWidth,t.canvas.height=300,new Chart(t,{type:"bar",data:{labels:["React","Bootstrap","JavaScript","HTML/CSS","Sql"],datasets:[{label:"Skill levels",data:[40,60,70,90,45],backgroundColor:["rgba(75, 192, 192, 0.2)","rgba(153, 102, 255, 0.2)","rgba(255, 159, 64, 0.2)","rgba(54, 162, 235, 0.2)"],borderColor:["rgba(75, 192, 192, 1)","rgba(153, 102, 255, 1)","rgba(255, 159, 64, 1)","rgba(54, 162, 235, 1)"],borderWidth:1}]},options:{responsive:!0,maintainAspectRatio:!1,scales:{y:{beginAtZero:!0,max:100}}}})}function v(){const t=document.createElement("article");t.id="work";const a=`
     <h2>Work.</h2>
   `;t.innerHTML=`
     <div class="container text-center">
