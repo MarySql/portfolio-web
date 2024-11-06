@@ -1,9 +1,9 @@
-import '../portfolio-web/styles/global.css';
-import '../portfolio-web/styles/header.css';
-import '../portfolio-web/styles/main.css';
-import '../portfolio-web/styles/about.css';
-import '../portfolio-web/styles/article.css';
-import '../portfolio-web/styles/footer.css';
+import './styles/global.css';
+import './styles/header.css';
+import './styles/main.css';
+import './styles/about.css';
+import './styles/article.css';
+import './styles/footer.css';
 
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
