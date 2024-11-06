@@ -10,7 +10,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // Routes
 import { renderHeader } from './routes/header.js';
-import { renderMain } from '.routes/main.js';
+import { renderMain } from './routes/main.js';
 import { renderAbout } from './routes/about.js';
 import { renderArticle } from './routes/article.js';
 import { renderFooter } from './routes/footer.js';
