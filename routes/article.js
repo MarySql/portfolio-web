@@ -26,6 +26,9 @@ export function renderArticle() {
         <div class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
+        <div class="col-6">
+          <div class="p-3">Custom column padding</div>
+        </div>
       </div>
     </div>
   `;
@@ -35,10 +38,11 @@ export function renderArticle() {
 
   // Dados dinâmicos: URLs de imagens, textos descritivos e links de redirecionamento
   const images = [
-    { url: 'https://i.imgur.com/dCTBloH.jpeg', text: 'Snitap', link: 'https://github.com/MarySql/lp_patins' },
+    { url: 'https://i.imgur.com/VduM5Fr.jpeg', text: 'Render', link: 'https://github.com/MarySql/proj_reemb/tree/main' },
     { url: 'https://i.imgur.com/qSWN3Xt.jpeg', text: 'Zingen', link: 'https://github.com/MarySql/proj_landing_app' },
     { url: 'https://i.imgur.com/7n1mgNz.jpeg', text: 'Estrelas do amanhã', link: 'https://github.com/MarySql/proj_matricula' },
-    { url: 'https://i.imgur.com/QKFWVHh.jpeg', text: 'Weather', link: 'https://marysql.github.io/Projetos/Weather/' }
+    { url: 'https://i.imgur.com/QKFWVHh.jpeg', text: 'Weather', link: 'https://marysql.github.io/Projetos/Weather/' }, { url: 'https://i.imgur.com/8D9I1od.jpeg', text: 'Budget Buddy', link: 'https://github.com/MarySql/budget-buddy' }
+
   ];
 
   // Seleciona todas as colunas dentro do `image-grid`
@@ -60,7 +64,7 @@ export function renderArticle() {
       const img = document.createElement('img');
       img.src = item.url;
       img.alt = item.text;
-      img.className = 'img-fluid mb-2 hover-grow'; 
+      img.className = 'img-fluid mb-2 hover-grow';
 
       // Adiciona a imagem dentro do link
       link.appendChild(img);
@@ -69,9 +73,9 @@ export function renderArticle() {
       const textDiv = document.createElement('div');
       textDiv.className = 'text-muted';
       textDiv.innerText = item.text;
-      
 
-     
+
+
 
       // Adiciona o link (com a imagem) e o texto ao `paddingDiv`
       paddingDiv.appendChild(link);

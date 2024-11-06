@@ -67,9 +67,12 @@
         <div class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
+        <div class="col-6">
+          <div class="p-3">Custom column padding</div>
+        </div>
       </div>
     </div>
-  `,document.querySelector("#app").appendChild(t);const i=[{url:"https://i.imgur.com/dCTBloH.jpeg",text:"Snitap",link:"https://github.com/MarySql/lp_patins"},{url:"https://i.imgur.com/qSWN3Xt.jpeg",text:"Zingen",link:"https://github.com/MarySql/proj_landing_app"},{url:"https://i.imgur.com/7n1mgNz.jpeg",text:"Estrelas do amanhã",link:"https://github.com/MarySql/proj_matricula"},{url:"https://i.imgur.com/QKFWVHh.jpeg",text:"Weather",link:"https://marysql.github.io/Projetos/Weather/"}],s=document.querySelectorAll("#image-grid .col-6");i.forEach((e,n)=>{if(s[n]){const r=s[n].querySelector(".p-3");r.innerHTML="";const o=document.createElement("a");o.href=e.link,o.target="_blank";const l=document.createElement("img");l.src=e.url,l.alt=e.text,l.className="img-fluid mb-2 hover-grow",o.appendChild(l);const c=document.createElement("div");c.className="text-muted",c.innerText=e.text,r.appendChild(o),r.appendChild(c)}})}function h(){const t=document.createElement("footer");t.id="contact";const a="<h2>Contact.</h2>",i=`
+  `,document.querySelector("#app").appendChild(t);const i=[{url:"https://i.imgur.com/VduM5Fr.jpeg",text:"Render",link:"https://github.com/MarySql/proj_reemb/tree/main"},{url:"https://i.imgur.com/qSWN3Xt.jpeg",text:"Zingen",link:"https://github.com/MarySql/proj_landing_app"},{url:"https://i.imgur.com/7n1mgNz.jpeg",text:"Estrelas do amanhã",link:"https://github.com/MarySql/proj_matricula"},{url:"https://i.imgur.com/QKFWVHh.jpeg",text:"Weather",link:"https://marysql.github.io/Projetos/Weather/"},{url:"https://i.imgur.com/8D9I1od.jpeg",text:"Budget Buddy",link:"https://github.com/MarySql/budget-buddy"}],s=document.querySelectorAll("#image-grid .col-6");i.forEach((e,n)=>{if(s[n]){const r=s[n].querySelector(".p-3");r.innerHTML="";const o=document.createElement("a");o.href=e.link,o.target="_blank";const l=document.createElement("img");l.src=e.url,l.alt=e.text,l.className="img-fluid mb-2 hover-grow",o.appendChild(l);const c=document.createElement("div");c.className="text-muted",c.innerText=e.text,r.appendChild(o),r.appendChild(c)}})}function h(){const t=document.createElement("footer");t.id="contact";const a="<h2>Contact.</h2>",i=`
     <ul class="list-unstyled">
       <li><strong>Email:</strong>&nbsp;mary.mitsuri250@gmail.com</li>
       <li><strong>Telefone:</strong>&nbsp;(11) 9 4893-8423</li>
