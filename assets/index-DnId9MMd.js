@@ -38,7 +38,7 @@
       </div>
     </div>
     
-  `;const n=t.querySelector(".row");n.appendChild(s.createColumn()),n.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","assets/images/profile.svg")}),document.querySelector("#app").appendChild(t)}function p(){const t=document.createElement("section");t.id="about";const a='<h2 class="pb-5">About me.</h2>',i='<h3 class="scroll-text">A long time ago in a galaxy far, far away... </h3>',s=`
+  `;const n=t.querySelector(".row");n.appendChild(s.createColumn()),n.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","https://i.imgur.com/emUUnHp.png")}),document.querySelector("#app").appendChild(t)}function p(){const t=document.createElement("section");t.id="about";const a='<h2 class="pb-5">About me.</h2>',i='<h3 class="scroll-text">A long time ago in a galaxy far, far away... </h3>',s=`
     <p class="scroll-text">Maryane Soares began her journey in the world of programming, always seeking creative and efficient solutions. With a passion for JavaScript, React, and tools like Vite and Bootstrap, she builds immersive and dynamic experiences. She believes persistence and innovation are key to success. In addition to her technical skills, Maryane is an advocate for digital inclusion and accessibility. Ready to face new challenges, she continues her mission to transform the digital world.</p>
   `;t.innerHTML=`
   <div class="container text-center mt-5">
@@ -105,4 +105,4 @@
         <p class="small">&copy; 2024 Maryane Soares. Todos os direitos reservados.</p>
       </div>
     </div>
-  `,document.querySelector("#app").appendChild(t);const s=document.querySelector("#image-container .p-3"),e=document.createElement("img");e.src="https://i.imgur.com/emUUnHp.png",e.alt="Descrição da imagem",e.classList.add("img-fluid"),e.classList.add("contact-img"),s.appendChild(e)}m();u();p();v();h();
+  `,document.querySelector("#app").appendChild(t);const s=document.querySelector("#image-container .p-3"),e=document.createElement("img");e.src="assets/images/profile.svg",e.alt="Descrição da imagem",e.classList.add("img-fluid"),e.classList.add("contact-img"),s.appendChild(e)}m();u();p();v();h();
