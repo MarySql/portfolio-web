@@ -19,7 +19,7 @@
       <a href="https://www.linkedin.com/in/maryane-soares-1b4642327/" target="_blank" class="me-3"><i class="fa-brands fa-linkedin fa-2x"></i></a>
     </div>
   `,t.appendChild(a),document.querySelector("#app").appendChild(t)}class d{constructor(a,i,s){this.id=a,this.classes=i,this.content=s}createColumn(){const a=document.createElement("div");return a.id=this.id,a.className=`col ${this.classes}`,a.innerHTML=this.content,a}}function u(){const t=document.createElement("main"),a=`
-  <div data-aos="fade-right" data-aos-duration="2000">
+  <div data-aos="fade-down-right" data-aos-duration="2000">
     <p>Hello, I’m Maryane</p>
     <h1>Fullstack Developer</h1>
     <p>based in Brazil.</p>
@@ -29,7 +29,7 @@
     </a>
     </div>
   `,i=`
-    <div  data-aos="fade-left" data-aos-duration="2000" class="avatar-container">
+    <div  data-aos="fade-up-left" data-aos-duration="2000" class="avatar-container">
       <img class="profile img-fluid" alt="profile">
     </div>
   `,s=new d("textColumn","col-12 col-sm-6 d-flex flex-column order-1 order-sm-1 mb-4 mb-sm-0",a),e=new d("avatarColumn","col-12 col-sm-6 d-flex justify-content-center align-items-center avatar order-2 order-sm-2",i);t.innerHTML=` 
