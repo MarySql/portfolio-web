@@ -9,6 +9,9 @@ h1 {
   color: var(--text-color);
 }
 
+.profile {
+  border-radius: 50%;
+}
 
 /* Botões e container do botão */
 .button-container {
@@ -75,7 +78,7 @@ h1 {
 @keyframes slideInLeft {
   from {
     opacity: 0;
-    transform: translateX(-20%) scale(0.9); /* Em vez de -100% */
+    transform: translateX(-18%) scale(0.9);
   }
   to {
     opacity: 1;

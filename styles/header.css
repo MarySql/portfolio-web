@@ -15,7 +15,7 @@
 }
 
 .nav-link:hover {
-  color: var(--yellow) !important;
+  color: var(--text-purple) !important;
   text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.802);
 }
 
@@ -30,6 +30,6 @@
 }
 
 .fa-brands:hover {
-  color: var(--yellow) !important;
+  color: var(--text-purple) !important;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.802);
 }

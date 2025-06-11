@@ -21,16 +21,18 @@ export function renderMain() {
 
   // Criação das colunas com o conteúdo específico
   const textContent = `
+  <div data-aos="fade-down-right" data-aos-duration="2000">
     <p>Hello, I’m Maryane</p>
-    <h1>Fullstack Developer</h1>
+    <h1>Backend Developer</h1>
     <p>based in Brazil.</p>
     <a class="button-container" href="#contact">
       <img class="button" alt="resume">
       <img class="button-hover" alt="resume">
     </a>
+    </div>
   `;
   const avatarContent = `
-    <div class="avatar-container">
+    <div  data-aos="fade-up-left" data-aos-duration="2000" class="avatar-container">
       <img class="profile img-fluid" alt="profile">
     </div>
   `;
@@ -39,11 +41,12 @@ export function renderMain() {
   const avatarColumn = new Column("avatarColumn", "col-12 col-sm-6 d-flex justify-content-center align-items-center avatar order-2 order-sm-2", avatarContent);
 
   // Criando a estrutura de layout
-  main.innerHTML = `
-    <div class="container text-center mt-5 pb-3">
+  main.innerHTML = ` 
+    <div class="container text-center mt-5 pb-3 cemvh">
       <div class="text-start row justify-content-center align-items-center flex-column flex-sm-row">
       </div>
     </div>
+    
   `;
 
   // Adicionando colunas ao layout
@@ -55,10 +58,10 @@ export function renderMain() {
   window.addEventListener('load', () => {
     document.querySelector('.button').setAttribute('src', 'assets/images/button.svg');
     document.querySelector('.button-hover').setAttribute('src', 'assets/images/button-hover.svg');
-    document.querySelector('.profile').setAttribute('src', 'assets/images/profile.svg');
+    document.querySelector('.profile').setAttribute('src', 'https://imgur.com/CByZ9oR.jpeg');
 
-    document.getElementById('textColumn').classList.add('slide-in-left');
-    document.getElementById('avatarColumn').classList.add('slide-in-right');
+    //document.getElementById('textColumn').classList.add('slide-in-left');
+    //document.getElementById('avatarColumn').classList.add('slide-in-right');
   });
 
   // Anexa o elemento main ao app

@@ -2,33 +2,37 @@ export function renderArticle() {
   const article = document.createElement('article');
   article.id = 'work';
 
-  // Define o título do artigo
+  // Define o título
   const textTitle = `
     <h2>Work.</h2>
   `;
 
-  // Cria a estrutura HTML do artigo
+  // Cria a estrutura HTML
   article.innerHTML = `
     <div class="container text-center">
       <div class="text-start mt-5 pb-5">
         ${textTitle}
       </div>
       <div class="row g-2" id="image-grid">
-        <div class="col-6">
+        <div data-aos="fade-right" class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
-        <div class="col-6">
+        <div data-aos="fade-left" class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
-        <div class="col-6">
+        <div data-aos="fade-right" class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
-        <div class="col-6">
+        <div data-aos="fade-left" class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
-        <div class="col-6">
+        <div data-aos="fade-right" class="col-6">
           <div class="p-3">Custom column padding</div>
         </div>
+        <div data-aos="fade-left" class="col-6">
+          <div class="p-3">Custom column padding</div>
+        </div>
+        
       </div>
     </div>
   `;
@@ -38,11 +42,12 @@ export function renderArticle() {
 
   // Dados dinâmicos: URLs de imagens, textos descritivos e links de redirecionamento
   const images = [
-    { url: 'https://i.imgur.com/VduM5Fr.jpeg', text: 'Render', link: 'https://github.com/MarySql/proj_reemb/tree/main' },
-    { url: 'https://i.imgur.com/qSWN3Xt.jpeg', text: 'Zingen', link: 'https://github.com/MarySql/proj_landing_app' },
-    { url: 'https://i.imgur.com/7n1mgNz.jpeg', text: 'Estrelas do amanhã', link: 'https://github.com/MarySql/proj_matricula' },
-    { url: 'https://i.imgur.com/QKFWVHh.jpeg', text: 'Weather', link: 'https://marysql.github.io/Projetos/Weather/' }, { url: 'https://i.imgur.com/8D9I1od.jpeg', text: 'Budget Buddy', link: 'https://github.com/MarySql/budget-buddy' }
-
+    { url: 'https://imgur.com/N1Z8bKi.jpeg', text: 'DevResume', link: 'https://devresume-nine.vercel.app/' },
+    { url: 'https://github.com/user-attachments/assets/80753c4e-9f3f-4c5e-82ed-9d8be2be53ce', text: 'Blogeek', link: 'https://github.com/MarySql/blog' },
+    { url: 'https://github.com/user-attachments/assets/85311731-d875-4e2f-9706-f28729b01b8f', text: 'MedConnect', link: 'https://github.com/MarySql/medconnect.web' },
+    { url: 'https://github.com/user-attachments/assets/9354fe0c-8070-48b8-9be9-d3926bafc502', text: 'Todo-list', link: 'https://marysql.github.io/Projetos/Weather/' },
+    { url: 'https://github.com/user-attachments/assets/f80bdc0c-88fd-4857-9de1-531a6a6ce646', text: 'Cat Facts', link: 'https://github.com/MarySql/cat-facts' },
+    { url: 'https://imgur.com/wia4ZLk.jpeg', text: 'Last Friend', link: 'https://github.com/MarySql/last-friend' }
   ];
 
   // Seleciona todas as colunas dentro do `image-grid`
@@ -64,7 +69,7 @@ export function renderArticle() {
       const img = document.createElement('img');
       img.src = item.url;
       img.alt = item.text;
-      img.className = 'img-fluid mb-2 hover-grow';
+      img.className = 'img-fluid mb-2 hover-grow work-icon';
 
       // Adiciona a imagem dentro do link
       link.appendChild(img);
@@ -73,9 +78,6 @@ export function renderArticle() {
       const textDiv = document.createElement('div');
       textDiv.className = 'text-muted';
       textDiv.innerText = item.text;
-
-
-
 
       // Adiciona o link (com a imagem) e o texto ao `paddingDiv`
       paddingDiv.appendChild(link);
