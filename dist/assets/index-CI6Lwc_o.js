@@ -23,7 +23,7 @@
     <p>Hello, I’m Maryane</p>
     <h1>Backend Developer</h1>
     <p>based in Brazil.</p>
-    <a class="button-container" href="#contact">
+    <a class="button-container" href="https://raw.githubusercontent.com/MarySql/portfolio-web/main/public/assets/main/Talento%20-%20Maryane%20Soares.pdf" target="_blank">
       <img class="button" alt="resume">
       <img class="button-hover" alt="resume">
     </a>
