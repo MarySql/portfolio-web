@@ -153,4 +153,4 @@
         <p class="small">&copy; 2024 Maryane Soares. Todos os direitos reservados.</p>
       </div>
     </div>
-  `,document.querySelector("#app").appendChild(s);const n=document.querySelector("#image-container .p-3"),e=document.createElement("img");e.src="assets/images/profile.svg",e.alt="Descrição da imagem",e.classList.add("img-fluid"),e.classList.add("contact-img"),n.appendChild(e)}m();u();v();g();h();
+  `,document.querySelector("#app").appendChild(s);const n=document.querySelector("#image-container .p-3"),e=document.createElement("img");e.src="images/profile.svg",e.alt="Descrição da imagem",e.classList.add("img-fluid"),e.classList.add("contact-img"),n.appendChild(e)}m();u();v();g();h();
