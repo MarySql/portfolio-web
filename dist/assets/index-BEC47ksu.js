@@ -23,7 +23,7 @@
     <p>Hello, I’m Maryane</p>
     <h1>Backend Developer</h1>
     <p>based in Brazil.</p>
-    <a class="button-container" href="https://raw.githubusercontent.com/MarySql/portfolio-web/main/public/assets/main/Talento%20-%20Maryane%20Soares.pdf" target="_blank">
+    <a class="button-container" href="https://drive.google.com/file/d/1HRn4e42Oz6NhusOEFWbM-f0RkZp5ubwk/view?usp=sharing" target="_blank">
       <img class="button" alt="resume">
       <img class="button-hover" alt="resume">
     </a>
@@ -38,10 +38,10 @@
       </div>
     </div>
     
-  `;const i=s.querySelector(".row");i.appendChild(n.createColumn()),i.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","https://imgur.com/CByZ9oR.jpeg")}),document.querySelector("#app").appendChild(s)}function v(){const s=document.createElement("section");s.id="about";const t='<h2 class="pb-5">About me.</h2>',a='<h3 class="scroll-text">A long time ago in a galaxy far, far away... </h3>',n=`
+  `;const i=s.querySelector(".row");i.appendChild(n.createColumn()),i.appendChild(e.createColumn()),window.addEventListener("load",()=>{document.querySelector(".button").setAttribute("src","assets/images/button.svg"),document.querySelector(".button-hover").setAttribute("src","assets/images/button-hover.svg"),document.querySelector(".profile").setAttribute("src","https://imgur.com/RBvgSot.png")}),document.querySelector("#app").appendChild(s)}function v(){const s=document.createElement("section");s.id="about";const t='<h2 class="pb-5">About me.</h2>',a='<h3 class="scroll-text">A long time ago in a galaxy far, far away... </h3>',n=`
     <p class="scroll-text">Maryane Soares began her journey in the world of programming, always seeking creative and efficient solutions. With a passion for JavaScript, React, and tools like Vite and Bootstrap, she builds immersive and dynamic experiences. She believes persistence and innovation are key to success. In addition to her technical skills, Maryane is an advocate for digital inclusion and accessibility. Ready to face new challenges, she continues her mission to transform the digital world.</p>
   `,e=`
-  <div class="skills-icons text-center mt-4">
+  <div class="skills-icons text-center mt-4" data-aos="fade-up">
 
   <h3 class="pb-2">Tools & Frameworks</h3>
 

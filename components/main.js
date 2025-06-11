@@ -25,7 +25,7 @@ export function renderMain() {
     <p>Hello, I’m Maryane</p>
     <h1>Backend Developer</h1>
     <p>based in Brazil.</p>
-    <a class="button-container" href="https://raw.githubusercontent.com/MarySql/portfolio-web/main/public/assets/main/Talento%20-%20Maryane%20Soares.pdf" target="_blank">
+    <a class="button-container" href="https://drive.google.com/file/d/1HRn4e42Oz6NhusOEFWbM-f0RkZp5ubwk/view?usp=sharing" target="_blank">
       <img class="button" alt="resume">
       <img class="button-hover" alt="resume">
     </a>
@@ -58,7 +58,7 @@ export function renderMain() {
   window.addEventListener('load', () => {
     document.querySelector('.button').setAttribute('src', 'assets/images/button.svg');
     document.querySelector('.button-hover').setAttribute('src', 'assets/images/button-hover.svg');
-    document.querySelector('.profile').setAttribute('src', 'https://imgur.com/CByZ9oR.jpeg');
+    document.querySelector('.profile').setAttribute('src', 'https://imgur.com/RBvgSot.png');
 
     //document.getElementById('textColumn').classList.add('slide-in-left');
     //document.getElementById('avatarColumn').classList.add('slide-in-right');

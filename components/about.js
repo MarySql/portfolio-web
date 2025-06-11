@@ -12,7 +12,7 @@ export function renderAbout() {
   `;
 
 const skillsIcons = `
-  <div class="skills-icons text-center mt-4">
+  <div class="skills-icons text-center mt-4" data-aos="fade-up">
 
   <h3 class="pb-2">Tools & Frameworks</h3>
 
